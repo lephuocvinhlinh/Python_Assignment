@@ -4,7 +4,6 @@
     - Output: [10, 12, 13]
 
 2. Using `map` function to square the elements of a list
-Check multiple keys exists in a dictionary:
     - Input: [2, 4, 6]
     - Output: [4, 16, 36]
 
