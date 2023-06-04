@@ -1,7 +1,7 @@
 
 class Dictionary:
     def __init__(self):
-        my_dict = {}
+        self.my_dict = {}
     def get_dict(self):
         return self.my_dict
     def map_list_to_dict(self, keys, values):

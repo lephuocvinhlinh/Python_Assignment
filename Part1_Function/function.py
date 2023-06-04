@@ -13,9 +13,15 @@ print(is_palindrome(string))
 #Function returns a list of lists where each list stores elements with the same remainder after dividing by n
 def remainder_list(lst, n):
     result = [[] for i in range(n)]
+    check = False
     for num in lst:
         remainder = num % n
+        if(remainder == 0):
+            check = True
         result[remainder].append(num)
+    if(check):
+        first = result.pop(0)
+        result.append(first)
     return result
 
 #Test case
