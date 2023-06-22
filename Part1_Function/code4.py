@@ -1,9 +1,6 @@
-def sum(lst):
-    total = 0
-    for num in lst:
-        total += int(num)
-    return total
+def calculate_sum(*args):
+    return sum(args)
 
 # Example usage
 lst = input().split()
-print(sum(lst))
+print(calculate_sum(lst))

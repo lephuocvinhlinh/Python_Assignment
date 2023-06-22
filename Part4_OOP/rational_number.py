@@ -6,8 +6,8 @@ class Exception:
 
 def uscln(a, b):
     if (b == 0):
-        return a;
-    return uscln(b, a % b);
+        return a
+    return uscln(b, a % b)
 
 class RationalNumber(Exception):
   denominator = 1
